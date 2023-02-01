@@ -13,148 +13,127 @@ function Heirarchy() {
         <h2 className='Title' >Media Heirarchy</h2>
         <p>Below I have categorizied types of media I consume in my day-to-day by how they are accessed.</p>
         
-        <Row className="High_Media Sound">
+        <Row>
+        <Col className="High_Media Sound">
             <h5 className='Media_Title'>Audio</h5>
-            
-                <Col className="Column_border1">
+                <Row >
+                    <div className="Media_Platform">Phone</div>
+                    <div className='first'>-Music</div>
+                    <div className='first'>-Podcasts</div>
+                    <div className='first'>-AudioBooks</div>
+                </Row>
+
                 <Row>
                     <div className="Media_Platform">Non-Device</div>
-                </Row>
-                <Row>
-                    <Col>
-                        <div>Class lectures</div>
-                    </Col>
-                    <Col>
-                        <div> conversations</div>
-                    </Col>
-                </Row>
-                </Col>
-
-                <Col className="Column_border1">
-                    <Row>
-                        <div className="Media_Platform">Phone</div>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <div>Music</div>
-                        </Col>
-                        <Col>
-                            <div>Podcasts</div>
-                        </Col>
-                        <Col>
-                            <div>AudioBooks</div>
-                        </Col>
-                    </Row>
-                </Col>
-                <Row></Row>
-            </Row>
+                    <div className='first'>-Class Lectures</div>
+                    <div className='first'>-Conversations</div>
+                </Row>              
+            </Col>
            
-        <Row className="High_Media Text">
+        <Col className="High_Media Text">
             <h5 className='Media_Title'>Text</h5>
-            <Col className="Column_border2">
-                <Row><div className="Media_Platform">Phone</div></Row>
                 <Row>
-                    <Col>Text Messages</Col>
-                    <Col>LinkedIn</Col>
+                    <div className="Media_Platform">Phone</div>
+                    <div className='first'>-Text Messages</div>
+                    <div className='first'>-LinkedIn</div>
                 </Row>
-            </Col>
-            <Col className="Column_border2">
-                <Row><div className="Media_Platform">Tablet</div></Row>
-                <Row>
-                    <Col>Textbooks</Col>
-                    <Col>Digital Books</Col>
-                    <Col>Reddit</Col>
-                </Row>
-            </Col>
-            <Col className="Column_border2">
-                <Row><div className="Media_Platform">Computer</div></Row>
-                <Row>
-                    <Col>Programming</Col>
-                    <Col>Stack Overflow</Col>
-                    <Col>Academic Articles and Journals</Col>
-                </Row>
-            </Col>
-            <Row></Row>
-        </Row>
 
-        <Row className="High_Media Still_Images">
+                <Row>
+                    <div className="Media_Platform">Computer</div>
+                    <div className='first'>-Programming</div>
+                    <div className='first'>-Stack Overflow</div>
+                    <div className='first'>-Academic Articles</div>
+                </Row>
+
+                <Row>
+                    <div className="Media_Platform">Tablet</div>
+                    <div className='first'>-Textbooks</div>
+                    <div className='first'>-Digital Books</div>
+                    <div className='first'>-Reddit</div>
+                </Row>
+
+                
+            </Col>
+ 
+
+
+        <Col className="High_Media Still_Images">
             <h5 className='Media_Title'>Still Images</h5>
-            <Col className="Column_border3">
-                <Row><div className="Media_Platform">Phone</div></Row>
+            
                 <Row>
-                    <Col>Instagram</Col>
-                    <Col>Pinterest</Col>
-                    <Col>Facebook</Col>
+                    <div className="Media_Platform">Phone</div>
+                    <div className='first'>-Instagram</div>
+                    <div className='first'>-Pinterest</div>
+                    <div className='first'>-Facebook</div>
                 </Row>
-            </Col>
-            <Col className="Column_border3">
-                <Row><div className="Media_Platform">Others</div></Row>
+           
                 <Row>
-                    <Col>Billboards</Col>
-                    <Col>Advertisement</Col>
+                    <div className="Media_Platform">Others</div>
+                    <div className='first'>-Billboards</div>
+                    <div className='first'>-Advertisement</div>
                 </Row>
-            </Col>
-            <Row></Row>
-        </Row>
 
-        <Row className="High_Media Games">
+        </Col>
+
+        <Col className="High_Media Games">
             <h5 className='Media_Title'>Games</h5>
-            <Col className="Column_border4">
-                <Row><div className="Media_Platform">Board Games</div></Row>
+                
                 <Row>
-                    <Col>Catan</Col>
-                    <Col>Clue</Col>
-                    <Col>Chess</Col>
+                    <div>
+                        <div className="Media_Platform">Phone</div>
+                        <div className='first'>-HayDay</div>
+                        <div className='first'>-Bloons</div>
+                    </div>
                 </Row>
-            </Col>
-            <Col className="Column_border4">
-                <Row><div className="Media_Platform">Phone</div></Row>
-                <Row>
-                    <Col>HayDay</Col>
-                    <Col>Bloons</Col>
-                </Row>
-            </Col>
-            <Col className="Column_border4">
-                <Row><div className="Media_Platform">Console</div></Row>
-                <Row>
-                    <Col>Legend of Zelda</Col>
-                    <Col>Pokemon</Col>
-                </Row>
-            </Col>
-            <Col className="Column_border4">
-                <Row><div className="Media_Platform">Computer</div></Row>
-                <Row>
-                    <Col>Age of Empires</Col>
-                    <Col>Ark</Col>
-                </Row>
-            </Col>
-            <Row></Row>
-        </Row>
 
-        <Row className="High_Media Moving_Images">
-            <h5 className='Media_Title'>Moving Images</h5>
-            <Col className="Column_border5">
-                <Row><div className="Media_Platform">Phone</div></Row>
                 <Row>
-                    <Col>TikTok</Col>
+                    <div className="Media_Platform">Computer</div>
+                    <div className='first'>-Age of Empires</div>
+                    <div className='first'>-Ark</div>
                 </Row>
-            </Col>
-            <Col className="Column_border5">
-                <Row><div className="Media_Platform">Computer</div></Row>
-                <Row>
-                    <Col>Youtube</Col>
-                </Row>
-            </Col>
-            <Col className="Column_border5">
-                <Row><div className="Media_Platform">Television</div></Row>
-                <Row>
-                    <Col>Movies</Col>
-                    <Col>Tv Shows</Col>
-                </Row>
-            </Col>
-            <Row></Row>
-        </Row>
 
+                <Row><div className="Media_Platform">Board Games</div>
+                    <div className='first'>-Catan</div>
+                    <div className='first'>-Clue</div>
+                    <div className='first'>-Chess</div>
+                </Row>
+
+                <Row><div className="Media_Platform">Console</div>
+                    <div className='first'>-Legend of Zelda</div>
+                    <div className='first'>-Pokemon</div>
+                </Row>
+        </Col>
+
+        <Col className="High_Media Moving_Images">
+            <h5 className='Media_Title'>Video</h5>
+                <Row>
+                    <div className="Media_Platform">Phone</div>
+                    <div className='first'>-TikTok</div>
+                </Row>
+                <Row>
+                    <div className="Media_Platform">Computer</div>
+                    <div className='first'>-Youtube</div>
+                </Row>
+                <Row>
+                    <div className="Media_Platform">Television</div>
+                    <div className='first'>-Movies</div>
+                        <div className='second'>-Action Movies</div>
+                            <div className='third'>-Captain America</div>
+                        <div className='second'>-Childrens Movies</div>
+                            <div className='third'>-Tangled</div>
+                        <div className='second'>-Comedy Movies</div>
+                            <div className='third'>-Dumb and Dumber</div>
+                    <div className='first'>-Tv Shows</div>
+                        <div className='second'>-Action Shows</div>
+                            <div className='third'>-The last of Us</div>
+                        <div className='second'>-Comedy Shows</div>
+                            <div className='third'>-Parks and Rec</div>
+
+
+                </Row>
+
+        </Col>
+        </Row>
         
     </div>
     );

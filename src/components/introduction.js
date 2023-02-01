@@ -11,11 +11,12 @@ function Introduction() {
         <Row>
             <Col></Col>
             <Col className="center">
-                <div>
+                <div className="Image_wrap">
                     <img src={headshot} className="HeadShot" alt="logo" />
                 </div>
             </Col>
             <Col className="center">
+                <div className="Intro">
                 <h5>Howdy</h5>
                 <br/>
                 <p>I'm a senior at Texas A&M University pursuing my Computer Science Degree with a minor in business.</p>
@@ -24,6 +25,7 @@ function Introduction() {
                 <br/>
                 <p>I'm taking Computers and New Media to familiarize myself with the patterns of changing media and how today's media access impacts society. </p>
                 <br/>
+                </div>
             </Col>
             <Col></Col>
         </Row>
