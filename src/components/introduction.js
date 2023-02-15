@@ -2,12 +2,18 @@ import React from 'react';
 import './styling.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import headshot from '../images/headshot.jpg';
+import heirarchy from './heirarchy';
+import Heirarchy from './heirarchy';
+import { Link } from "react-router-dom";
 
 
 function Introduction() {
     return (
         <div>
-        <h2 className="Title"> Maja's Website</h2>
+        <h2 className="Title"> Maja's Website
+        <br/>
+        <Link to="/part2"> Assignment 2 </Link>
+</h2>
         <Row>
             <Col></Col>
             <Col className="center">
@@ -29,7 +35,7 @@ function Introduction() {
             </Col>
             <Col></Col>
         </Row>
-
+        <Heirarchy/>
         </div>
     );
 

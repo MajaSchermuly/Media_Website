@@ -1,7 +1,8 @@
 import React from 'react';
 import './styling.css';
 import {Container, Row, Col} from 'react-bootstrap';
-
+import { Link } from "react-router-dom";
+import Part2 from './Part2';
 const high_level = ["Text","Sound","Games","Still Images", "Moving Images"]
 
 
@@ -12,6 +13,9 @@ function Heirarchy() {
     <div className="center">
         <h2 className='Title' >Media Heirarchy</h2>
         <p>Below I have categorizied types of media I consume in my day-to-day by how they are accessed.</p>
+        <p>Link to assignment 2</p>
+        <Link to="/part2"> Part 2 </Link>
+
         
         <Row>
         <Col className="High_Media Sound">
